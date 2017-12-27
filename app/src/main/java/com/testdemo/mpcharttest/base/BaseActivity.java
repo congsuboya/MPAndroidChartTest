@@ -31,8 +31,8 @@ public class BaseActivity extends Activity {
 
         Log.e("OpenActivity", this.getClass().getName());
 
-        mTfRegular = Typeface.createFromAsset(getAssets(), "OpenSans-Regular.ttf");
-        mTfLight = Typeface.createFromAsset(getAssets(), "OpenSans-Light.ttf");
+//        mTfRegular = Typeface.createFromAsset(getAssets(), "OpenSans-Regular.ttf");
+//        mTfLight = Typeface.createFromAsset(getAssets(), "OpenSans-Light.ttf");
     }
 
     protected float getRandom(float range, float startsfrom) {
